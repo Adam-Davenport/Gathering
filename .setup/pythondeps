@@ -1,0 +1,6 @@
+#!/bin/bash
+# Script to manage python packages
+# Staying on same version of django udpates will be manual
+pip install django==1.11.6
+pip install pillow --upgrade
+pip install mtgsdk --upgrade
